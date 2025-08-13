@@ -25,24 +25,19 @@ npx playwright install chromium
 ## Run Tests
 
 ```bash
-npm test
+npx cucumber-js
 ```
 
 ---
 
-### Generate Reports
-
-**HTML Report:**
-
-```bash
-npm run report:html
-```
+### Generate Report
 
 **Allure Report** ( `allure-commandline` is installed):
 
 ```bash
-npm run report:allure:generate
-npm run report:allure:open
+npx allure generate allure-results --clean -o allure-report
+npx allure open allure-report
+
 ```
 
 ---
