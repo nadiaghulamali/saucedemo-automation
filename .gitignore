@@ -4,3 +4,5 @@ allure-report
 playwright-report
 reports
 test-results
+allure-results/
+reports/html-report/
