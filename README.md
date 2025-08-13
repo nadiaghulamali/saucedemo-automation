@@ -47,3 +47,7 @@ npx allure open allure-report
 * **Locators** are under `src/locators`
 * **Pages** are under `src/pages`, using classes extending `BasePage`
 * **Steps** use Playwright to drive Chromium pages
+
+## Allure Report Example
+
+![Allure Report Summary](docs/Allure_Report_Summary.png)
